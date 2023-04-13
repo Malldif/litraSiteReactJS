@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavLink, S} from "react-bootstrap";
+import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavLink} from "react-bootstrap";
 import logo from './logo192.png'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
@@ -12,7 +12,7 @@ export default class Header extends Component{
     render() {
         return (
             <>
-                <Navbar  collapseOnSelect expand={"md"} bg={"dark"} variant={"dark"}>
+                <Navbar collapseOnSelect expand={"md"} bg={"dark"} variant={"dark"}>
                     <Container>
                         <NavbarBrand href={"/"}>
                             <img src={logo}
@@ -24,9 +24,9 @@ export default class Header extends Component{
                         <NavbarToggle aria-controls="responsive-navnar-nav"></NavbarToggle>
                         <NavbarCollapse id={"responsive-navbar-nav"}>
                             <Nav className={"me-auto"}>
-                                <NavLink href={"/"}> Home </NavLink>
-                                <NavLink href={"/map"}> Map </NavLink>
-                                <NavLink href={"/info"}> Info </NavLink>
+                                <NavLink href={"/"}> Главная </NavLink>
+                                <NavLink href={"/map"}> Карта </NavLink>
+                                <NavLink href={"/info"}> Информация </NavLink>
                             </Nav>
                             <Form inline >
                                 <FormControl
