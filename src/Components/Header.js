@@ -27,6 +27,7 @@ export default class Header extends Component{
                                 <NavLink href={"/"}> Главная </NavLink>
                                 <NavLink href={"/map"}> Карта </NavLink>
                                 <NavLink href={"/info"}> Информация </NavLink>
+                                <NavLink href={"https://ilibrary.ru/text/69/p.1/index.html"} style={{color:"blue", marginTop:"-4px", fontSize:"20px"}}> Преступление и наказание </NavLink>
                             </Nav>
                             <Form inline >
                                 <FormControl
