@@ -24,7 +24,7 @@ export default class Header extends Component{
                         <NavbarToggle aria-controls="responsive-navnar-nav"></NavbarToggle>
                         <NavbarCollapse id={"responsive-navbar-nav"}>
                             <Nav className={"me-auto"}>
-                                <NavLink href={"/litraSiteReactJS/"}> Главная </NavLink>
+                                <NavLink href={"/litraSiteReactJS"}> Главная </NavLink>
                                 <NavLink href={"/litraSiteReactJS/map"}> Карта </NavLink>
                                 <NavLink href={"/litraSiteReactJS/info"}> Информация </NavLink>
                                 <NavLink href={"https://ilibrary.ru/text/69/p.1/index.html"} style={{color:"blue", marginTop:"-4px", fontSize:"20px"}}> Преступление и наказание </NavLink>
@@ -43,9 +43,9 @@ export default class Header extends Component{
 
                 <Router>
                     <Routes>
-                        <Route path="/" element={<Home/>}/>
-                        <Route path="/map" element={<Map/>}/>
-                        <Route path="/info" element={<Info/>}/>
+                        <Route path="/litraSiteReactJS" element={<Home/>}/>
+                        <Route path="/litraSiteReactJS/map" element={<Map/>}/>
+                        <Route path="/litraSiteReactJS/info" element={<Info/>}/>
                     </Routes>
                 </Router>
             </>
