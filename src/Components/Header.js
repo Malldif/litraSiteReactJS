@@ -3,7 +3,7 @@ import {Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand, NavLink}
 import logo from './logo192.png'
 import NavbarToggle from "react-bootstrap/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "../Pages/Home";
 import Map from "../Pages/Map";
 import Info from "../Pages/Info";
