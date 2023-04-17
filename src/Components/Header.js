@@ -14,7 +14,7 @@ export default class Header extends Component{
             <>
                 <Navbar collapseOnSelect expand={"md"} bg={"dark"} variant={"dark"}>
                     <Container>
-                        <NavbarBrand href={"/"}>
+                        <NavbarBrand href={"/litraSiteReactJS/"}>
                             <img src={logo}
                                  height={30}
                                  width={30}
