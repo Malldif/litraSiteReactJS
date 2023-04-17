@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/litraSiteReactJS/static/css/main.20f111c3.css",
-    "main.js": "/litraSiteReactJS/static/js/main.29b6cd38.js",
+    "main.js": "/litraSiteReactJS/static/js/main.e566ca94.js",
     "static/js/787.b3afd743.chunk.js": "/litraSiteReactJS/static/js/787.b3afd743.chunk.js",
     "static/media/1625177776_51-kartinkin-com-p-prestuplenie-i-nakazanie-fon-krasivie-foni-54.jpg": "/litraSiteReactJS/static/media/1625177776_51-kartinkin-com-p-prestuplenie-i-nakazanie-fon-krasivie-foni-54.302f3efe40332d625e96.jpg",
     "static/media/dostoevskij_glazunov15.jpg": "/litraSiteReactJS/static/media/dostoevskij_glazunov15.144719e27d593d376448.jpg",
@@ -20,11 +20,11 @@
     "static/media/юсуповский-сад.png": "/litraSiteReactJS/static/media/юсуповский-сад.438bacfc61fef79b226d.png",
     "index.html": "/litraSiteReactJS/index.html",
     "main.20f111c3.css.map": "/litraSiteReactJS/static/css/main.20f111c3.css.map",
-    "main.29b6cd38.js.map": "/litraSiteReactJS/static/js/main.29b6cd38.js.map",
+    "main.e566ca94.js.map": "/litraSiteReactJS/static/js/main.e566ca94.js.map",
     "787.b3afd743.chunk.js.map": "/litraSiteReactJS/static/js/787.b3afd743.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20f111c3.css",
-    "static/js/main.29b6cd38.js"
+    "static/js/main.e566ca94.js"
   ]
 }
