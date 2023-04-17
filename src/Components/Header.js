@@ -29,7 +29,7 @@ export default class Header extends Component{
                                 <NavLink href={"/litraSiteReactJS/info"}> Информация </NavLink>
                                 <NavLink href={"https://ilibrary.ru/text/69/p.1/index.html"} style={{color:"blue", marginTop:"-4px", fontSize:"20px"}}> Преступление и наказание </NavLink>
                             </Nav>
-                            <Form inline >
+                            <Form inline style={{ display: "flex", gap: "5px" }}>
                                 <FormControl
                                     type={"text"}
                                     placeholder={"Search"}

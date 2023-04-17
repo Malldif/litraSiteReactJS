@@ -9,7 +9,7 @@ export default class CarouselBox extends Component {
     render() {
         return (
             <div>
-                <Carousel style={{width:"1400px", marginLeft:"auto",marginRight:"auto", marginTop:"auto"}}>
+                <Carousel className={"Block"}  style={{width:"1400px", marginLeft:"auto",marginRight:"auto", marginTop:"auto"}}>
                     <CarouselItem>
                         <img
                             className={"d-block w-100"}

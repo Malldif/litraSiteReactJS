@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+  .Block {
+    max-width: 95%;
+  }
